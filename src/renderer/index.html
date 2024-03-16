@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Electron</title>
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self' http://47.107.128.145:8000;  script-src 'self' http://47.107.128.145:8000; style-src 'self' 'unsafe-inline' http://47.107.128.145:8000; img-src 'self' data: http://47.107.128.145:8000" />
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
+</html>
